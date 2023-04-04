@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Mark Stale Issues
     steps:
-    - uses: actions/stale@99b6c709598e2b0d0841cd037aaf1ba07a4410bd
+    - uses: actions/stale@72afbce2b0dbd1d903bb142cebe2d15dc307ae57
       with:
         # General
         repo-token: ${{ secrets.GITHUB_TOKEN }}
